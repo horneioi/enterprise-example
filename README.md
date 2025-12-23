@@ -79,7 +79,7 @@ Goal: understand system behavior without debugging production manually
 ***
 
 ## 4. Project Structure
-
+```
 /
 ├─ cmd/
 │  └─ main/        # entry point
@@ -88,6 +88,7 @@ Goal: understand system behavior without debugging production manually
 │  ├─ service/     # business logic
 │  ├─ repository/  # data access
 │  └─ models/      # domain models
+```
 
 ### Design Rationale
 cmd contains only wiring and startup logic
