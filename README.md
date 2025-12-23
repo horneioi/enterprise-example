@@ -80,7 +80,7 @@ Goal: understand system behavior without debugging production manually
 
 ## 4. Project Structure
 ```
-/
+<service>/
 ├─ cmd/
 │  └─ main/        # entry point
 ├─ internal/
